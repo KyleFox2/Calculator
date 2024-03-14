@@ -1,0 +1,69 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background: linear-gradient(#189CF3, #F31870);
+}
+
+.calculator {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  min-height: fit-content;
+  max-width:fit-content;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+}
+
+.output {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 25px;
+  grid-column: 1 / -1;
+  background-color: rgb(255, 255, 255, 0.15);
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+#previous-operand {
+  color: rgb(255, 255, 255, 0.80);
+  font-size: 1.5rem;
+}
+
+#current-operand {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.container > button {
+  color: white;
+  font-size: x-large;
+  background-color: rgb(255, 255, 255, 0.15);
+  border: 1px solid rgb(255, 255, 255, 0.03);
+}
+
+button:hover {
+  background-color: rgb(255, 255, 255, 0.30);
+}
+
+.border-1 {
+  border-bottom-left-radius: 25px;
+}
+
+.border-2 {
+  border-bottom-right-radius: 25px;
+}
+
+.span-two {
+  grid-column: span 2;
+}
