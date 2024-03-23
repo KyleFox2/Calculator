@@ -1,6 +1,9 @@
 {
   "devDependencies": {
-    "@playwright/test": "^1.42.1",
-    "playwright": "^1.42.1"
+    "@cypress/react": "^8.0.0",
+    "cypress": "^13.7.0"
+  },
+  "scripts": {
+    "test": "npx cypress run"
   }
 }
