@@ -20,8 +20,8 @@ This app is a convenient tool for maths. It leverages JavaScript to handle the l
 To use the Calculator App, simply open the `index.html` file in any web browser of your choice. The calculator interface will be displayed, ready for calculations.
 
 ### Testing
-- Test cases in Excel, check [this Google Sheets document]([https://docs.google.com/spreadsheets/d/18NszpYo1fmwGb__hvIy-mU81LSvELhMYlyICU1u1R9k/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1J5-a7s8r0LfIy5E6I0YKsWl0F9B04XynIerXr5YdqLc/edit?usp=drive_link)).
-- Cypress test results, check [this screenshot]([https://docs.google.com/spreadsheets/d/18NszpYo1fmwGb__hvIy-mU81LSvELhMYlyICU1u1R9k/edit?usp=sharing](https://drive.google.com/file/d/1kpszD9Okv6-QsY-nYoE-EUfDPjZfr6Fb/view?usp=drive_link)).
+- Test cases in Excel, check [this Google Sheets document](https://docs.google.com/spreadsheets/d/1J5-a7s8r0LfIy5E6I0YKsWl0F9B04XynIerXr5YdqLc/edit?usp=drive_link).
+- Cypress test results, check [this screenshot](https://drive.google.com/file/d/1kpszD9Okv6-QsY-nYoE-EUfDPjZfr6Fb/view?usp=drive_link).
 
 The app includes Cypress tests to validate its functionality. Follow these steps to run the tests:
 
